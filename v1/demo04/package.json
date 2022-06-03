@@ -1,0 +1,21 @@
+{
+  "name": "demo04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "sls deploy",
+    "invoke:aws": "sls invoke -f hero-insert --path request-mock/hero.insert.json --logger",
+    "invoke:local": "sls invoke local -f hero-insert --path request-mock/hero.insert.json --logger",
+    "invoke:local:trigger": "sls logs -f hero-trigger -t"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "aws-sdk": "^2.653.0",
+    "uuid": "^8.3.2"
+  }
+}
