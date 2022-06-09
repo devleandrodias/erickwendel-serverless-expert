@@ -1,0 +1,50 @@
+{
+    "DBCluster": {
+        "AllocatedStorage": 1,
+        "AvailabilityZones": [
+            "us-east-1d",
+            "us-east-1a",
+            "us-east-1c"
+        ],
+        "BackupRetentionPeriod": 1,
+        "DBClusterIdentifier": "serverlesscourse",
+        "DBClusterParameterGroup": "default.aurora5.6",
+        "DBSubnetGroup": "default",
+        "Status": "creating",
+        "Endpoint": "serverlesscourse.cluster-celduna5zw68.us-east-1.rds.amazonaws.com",
+        "ReaderEndpoint": "serverlesscourse.cluster-ro-celduna5zw68.us-east-1.rds.amazonaws.com",
+        "MultiAZ": false,
+        "Engine": "aurora",
+        "EngineVersion": "5.6.10a",
+        "Port": 3306,
+        "MasterUsername": "devleandrodias",
+        "PreferredBackupWindow": "06:30-07:00",
+        "PreferredMaintenanceWindow": "sat:09:38-sat:10:08",
+        "ReadReplicaIdentifiers": [],
+        "DBClusterMembers": [],
+        "VpcSecurityGroups": [
+            {
+                "VpcSecurityGroupId": "sg-0242e08a522422995",
+                "Status": "active"
+            }
+        ],
+        "HostedZoneId": "Z2R2ITUGPM61AM",
+        "StorageEncrypted": true,
+        "KmsKeyId": "arn:aws:kms:us-east-1:777632128622:key/82731c74-
+add7-46f5-bf1a-ae3b739f949f",
+        "DbClusterResourceId": "cluster-CFRMWNKF3374N4I3WKVMRHUE3M",
+        "DBClusterArn": "arn:aws:rds:us-east-1:777632128622:cluster:s
+erverlesscourse",
+        "AssociatedRoles": [],
+        "IAMDatabaseAuthenticationEnabled": false,
+        "ClusterCreateTime": "2022-06-09T20:35:48.843000+00:00",
+        "EngineMode": "serverless",
+        "DeletionProtection": false,
+        "HttpEndpointEnabled": false,
+        "CopyTagsToSnapshot": false,
+        "CrossAccountClone": false,
+        "DomainMemberships": [],
+        "TagList": [],
+        "AutoMinorVersionUpgrade": false
+    }
+}
