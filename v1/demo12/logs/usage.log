@@ -1,0 +1,50 @@
+{
+  "items": [
+    {
+      "id": "mvya8j",
+      "name": "demo12-paid-dev",
+      "description": "Usage plan \"paid\" for demo12 dev stage",
+      "apiStages": [
+        {
+          "apiId": "b5d0xvagk8",
+          "stage": "dev"
+        }
+      ],
+      "throttle": {
+        "burstLimit": 400,
+        "rateLimit": 50
+      },
+      "quota": {
+        "limit": 1000,
+        "offset": 0,
+        "period": "DAY"
+      },
+      "tags": {
+        "STAGE": "dev"
+      }
+    },
+    {
+      "id": "vad7ee",
+      "name": "demo12-free-dev",
+      "description": "Usage plan \"free\" for demo12 dev stage",
+      "apiStages": [
+        {
+          "apiId": "b5d0xvagk8",
+          "stage": "dev"
+        }
+      ],
+      "throttle": {
+        "burstLimit": 200,
+        "rateLimit": 200
+      },
+      "quota": {
+        "limit": 5,
+        "offset": 0,
+        "period": "MONTH"
+      },
+      "tags": {
+        "STAGE": "dev"
+      }
+    }
+  ]
+}
