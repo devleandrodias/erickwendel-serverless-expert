@@ -1,0 +1,21 @@
+{
+  "name": "demo10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "start": "npx nodemon --exec npm run offline",
+    "offline": "npx sls offline start --host 0.0.0.0 --httpPort 3004"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "serverless": "^1.67.3",
+    "serverless-offline": "^6.1.4"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  }
+}
