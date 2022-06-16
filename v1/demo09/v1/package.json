@@ -1,0 +1,21 @@
+{
+  "name": "demo09",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "start": "IS_LOCAL=true npx nodemon --exec sls offline start --host 0.0.0.0 --httpPort 4000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.653.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "serverless": "^1.67.3",
+    "serverless-dynamodb-local": "^0.2.40",
+    "serverless-offline": "^6.1.4"
+  }
+}
