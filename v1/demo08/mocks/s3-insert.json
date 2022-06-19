@@ -1,0 +1,38 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-1",
+      "eventTime": "2022-06-17T15:11:29.455Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "AWS:AIDA3KDT4TZXDWKHEGQRW"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "177.200.76.135"
+      },
+      "responseElements": {
+        "x-amz-request-id": "BPPKAPWMS13TC6PV",
+        "x-amz-id-2": "L6YzBFh8WGYsvvziBefcoXVqwDZAgnSGjxknwdBQUPofaOeiWOTIfiQRRRnLCn5zeZVOTI8eIYJDljEtKsspyWlVCrJoP7TK"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "f88bf80f-5dc6-4522-8053-cd9c780e6992",
+        "bucket": {
+          "name": "files-164-devleandro",
+          "ownerIdentity": {
+            "principalId": "AZ8RIWUVPZH7S"
+          },
+          "arn": "arn:aws:s3:::files-164-devleandro"
+        },
+        "object": {
+          "key": "test.csv",
+          "size": 12,
+          "eTag": "85126549273e2f07d3dc63523aad207f",
+          "sequencer": "0062AC99A14B3D6A97"
+        }
+      }
+    }
+  ]
+}
