@@ -1,0 +1,38 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-1",
+      "eventTime": "2022-07-15T15:19:36.608Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "AWS:AIDA3KDT4TZXDWKHEGQRW"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "177.200.76.106"
+      },
+      "responseElements": {
+        "x-amz-request-id": "0CEP54KV3T4B5MJC",
+        "x-amz-id-2": "6tVL/yPH4S48Q60hHMLFnBsLxnEdimhwvJyehwP0FzpwpCl90hoG5edpVTowd/dtoIHJiJXmEGR8tAUCpozotKjQmfNIcXND"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "45a27e14-753a-4d1e-9dab-61d3d5c82fa2",
+        "bucket": {
+          "name": "devleandrodias-bucket-001",
+          "ownerIdentity": {
+            "principalId": "AZ8RIWUVPZH7S"
+          },
+          "arn": "arn:aws:s3:::devleandrodias-bucket-001"
+        },
+        "object": {
+          "key": "test2.csv",
+          "size": 27,
+          "eTag": "10995398bdbcd7d1498ed8f99dad19d0",
+          "sequencer": "0062D18588815C5D57"
+        }
+      }
+    }
+  ]
+}

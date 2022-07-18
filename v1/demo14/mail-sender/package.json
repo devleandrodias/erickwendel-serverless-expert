@@ -1,0 +1,19 @@
+{
+  "name": "mail-sender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "logs": "sls logs -f mailsender -t",
+    "invoke:aws": "sls invoke -f mailsender -l",
+    "invoke:local": "sls invoke local -f mailsender --path mocks/event.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1176.0",
+    "mailcomposer": "^4.0.2"
+  }
+}

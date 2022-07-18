@@ -1,0 +1,16 @@
+{
+    "repository": {
+        "repositoryArn": "arn:aws:ecr:us-east-1:777632128622:repository/process-data",
+        "registryId": "777632128622",
+        "repositoryName": "process-data",
+        "repositoryUri": "777632128622.dkr.ecr.us-east-1.amazonaws.com/process-data",
+        "createdAt": "2022-07-04T18:46:46-03:00",
+        "imageTagMutability": "MUTABLE",
+        "imageScanningConfiguration": {
+            "scanOnPush": true
+        },
+        "encryptionConfiguration": {
+            "encryptionType": "AES256"
+        }
+    }
+}

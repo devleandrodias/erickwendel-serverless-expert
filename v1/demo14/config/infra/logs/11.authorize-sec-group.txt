@@ -1,0 +1,15 @@
+{
+    "Return": true,
+    "SecurityGroupRules": [
+        {
+            "SecurityGroupRuleId": "sgr-04df8d4368c94ca34",
+            "GroupId": "sg-0552dffc8bdd75d15",
+            "GroupOwnerId": "777632128622",
+            "IsEgress": false,
+            "IpProtocol": "tcp",
+            "FromPort": 80,
+            "ToPort": 80,
+            "CidrIpv4": "0.0.0.0/0"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "Vpcs": [
+        {
+            "CidrBlock": "10.0.0.0/16",
+            "DhcpOptionsId": "dopt-02e92085cb9971604",
+            "State": "available",
+            "VpcId": "vpc-0dcd777c6f9deb8ff",
+            "OwnerId": "777632128622",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-0d6bbf551499026cc",
+                    "CidrBlock": "10.0.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "serverless-vpc"
+                }
+            ]
+        }
+    ]
+}
