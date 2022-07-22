@@ -1,0 +1,1 @@
+{"errorType":"SyntaxError","errorMessage":"Unexpected token o in JSON at position 1","trace":["SyntaxError: Unexpected token o in JSON at position 1","    at JSON.parse (<anonymous>)","    at Runtime.handle [as handler] (/var/task/index.js:2:29)","    at Runtime.handleOnce (file:///var/runtime/index.mjs:548:29)"]}
