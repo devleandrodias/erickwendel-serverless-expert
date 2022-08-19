@@ -1,0 +1,31 @@
+service: yumda2-example
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+package:
+  individually: true
+  excludeDevDependencies: true
+
+exclude:
+  - ./dependencies.zip
+  - ./dependencies/
+  - ./mocks/
+
+functions:
+  mememaker:
+    handler: app/handler.mememaker
+    layers:
+      - { Ref: GmLibraryLambdaLayer }
+    events:
+      - http:
+          method: get
+          path: meme-maker
+          cors: true
+
+layers:
+  GmLibrary:
+    path: dependencies
+    package:
+      artifact: dependencies.zip

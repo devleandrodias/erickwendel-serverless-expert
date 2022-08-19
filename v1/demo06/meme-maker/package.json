@@ -1,0 +1,14 @@
+{
+  "name": "meme-maker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "invoke": "sls invoke -f mememaker --docker",
+    "invoke:local": "sls invoke local -f mememaker --docker",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
