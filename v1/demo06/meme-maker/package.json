@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "invoke": "sls invoke -f mememaker --docker",
-    "invoke:local": "sls invoke local -f mememaker --docker",
+    "invoke": "npx sls invoke -f mememaker --docker --path mocks/request.json",
+    "invoke:local": "npx sls invoke local -f mememaker --docker --path mocks/request.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "joi": "^17.6.0",
+    "serverless": "^1.67.3"
+  }
 }
