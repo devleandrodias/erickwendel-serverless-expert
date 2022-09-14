@@ -1,0 +1,24 @@
+{
+  "name": "tooling-jest-docker-plus",
+  "version": "1.0.0",
+  "description": "Tooling",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon --exec npm run offline",
+    "offline": "npx sls offline start --host 0.0.0.0",
+    "test": "IS_OFFLINE=true npx jest --collect-coverage ",
+    "test:watch": "IS_OFFLINE=true npx jest --watch-all "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1205.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.3",
+    "nodemon": "^2.0.19",
+    "serverless": "^3.22.0",
+    "serverless-offline": "^9.3.0"
+  }
+}
